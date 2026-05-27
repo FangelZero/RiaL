@@ -1,0 +1,106 @@
+body {
+	background: linear-gradient(-45deg, #AFCE61, #00883C, #A9B534, #97BC4B);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+article {
+	background: #222324;
+	align-self: center;
+	padding: 5vw;
+	margin-top: 10vw;
+}
+
+
+.hepta-slab-<uniquifier> {
+  font-family: "Hepta Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+.lexend-<uniquifier> {
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+h2 {
+font-family: lexend;
+font-size: 3vw;
+color: #ffffff;
+}
+
+p{
+font-family: hepta slab;
+font-size: 1vw;
+color: #ffffff;
+}
+
+.column{
+  flex: 50%;
+padding: 2vw;
+}
+
+.row {
+  display: flex;
+  background-color: #bed00c;
+}
+
+.codecolumn{
+  flex: 20%;
+padding: 2vw;
+}
+
+.coderow {
+  display: flex;
+  background-color: #bed00c;
+}
+
+h1 {
+font-family: lexend;
+color: #ffffff;
+font-size: 5vw;
+}
+
+h3{
+	font-family: lexend;
+font-size: 2vw;
+color: #ffffff;
+}
+
+.descarga{
+  background-color: #bed00c;
+border-radius: 1vw;
+width: 30vw;
+text-align: center;
+padding: 0.1vw;
+margin: auto;
+margin-top: 2vw;
+}
+
+.descarga:hover{
+	cursor: pointer;
+	background-color: #97BC4B;
+}
+
+footer{
+
+float: right;
+margin: 1vw;
+}

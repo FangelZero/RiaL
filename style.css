@@ -3,6 +3,7 @@ body {
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
 	height: 100vh;
+	touch-action: none;
 }
 
 @keyframes gradient {
@@ -22,6 +23,8 @@ article {
 	align-self: center;
 	padding: 5vw;
 	margin-top: 10vw;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 
@@ -103,4 +106,14 @@ footer{
 
 float: right;
 margin: 1vw;
+}
+
+mark {
+  background-color: rgb(255, 255, 255);
+  color: #222324;
+}
+
+mark1 {
+  background-color: rgb(255, 255, 255);
+  color: #bed00c;
 }

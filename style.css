@@ -69,7 +69,7 @@ padding: 2vw;
 
 .coderow {
   display: flex;
-  background-color: #bed00c;
+  background-color: #fffffd;
 }
 
 h1 {
@@ -85,7 +85,7 @@ color: #ffffff;
 }
 
 .descarga{
-  background-color: #bed00c;
+background-color: #bed00c;
 border-radius: 1vw;
 width: 30vw;
 text-align: center;

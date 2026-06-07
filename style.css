@@ -63,6 +63,7 @@ padding: 2vw;
   background-color: #bed00c;
   width:95%;
   margin: auto;
+  height: 40vw;
 }
 
 .codecolumn{
@@ -118,6 +119,39 @@ mark1 {
   color: #bed00c;
 }
 
+.codecolumn img{
+	width: 15vw;
+	display: block;
+	margin: auto;
+}
+
 @media screen and (max-width: 800px) {
- 
+ p{
+font-size: 3vw;
   }
+  .row{
+	flex-direction: column;
+	height: fit-content;
+}
+ embed{
+	height: 80vw;
+}
+
+.coderow{
+	flex-direction: column;
+	height: fit-content;
+}
+
+.codecolumn img{
+	width: 40vw;
+}
+
+h3{
+	font-size: 4vw;
+}
+
+.descarga{
+width: 60vw;
+}
+
+}

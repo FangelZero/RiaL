@@ -117,3 +117,11 @@ mark1 {
   background-color: rgb(255, 255, 255);
   color: #bed00c;
 }
+
+@media screen and (max-width: 800px) {
+  article {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+	margin: auto;
+  }
+
+  }

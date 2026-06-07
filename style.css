@@ -125,7 +125,7 @@ mark1 {
 	margin: auto;
 }
 
-@media screen and (max-width: 896px) {
+@media screen and (max-width: 1125px) {
  p{
 font-size: 3vw;
   }

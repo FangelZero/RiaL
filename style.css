@@ -22,9 +22,7 @@ body {
 article {
 	background: #222324;
 	padding: 5vw;
-	margin-top: 10vw;
-	margin-left: auto;
-	margin-right: auto;
+	margin:auto;
 }
 
 
@@ -63,6 +61,8 @@ padding: 2vw;
 .row {
   display: flex;
   background-color: #bed00c;
+  width:95%;
+  margin: auto;
 }
 
 .codecolumn{
@@ -119,9 +119,5 @@ mark1 {
 }
 
 @media screen and (max-width: 800px) {
-  article {
-    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
-	margin: auto;
-  }
-
+ 
   }

@@ -4,6 +4,7 @@ body {
 	animation: gradient 15s ease infinite;
 	height: 100vh;
 	touch-action: none;
+	margin:auto;
 }
 
 @keyframes gradient {
@@ -20,7 +21,6 @@ body {
 
 article {
 	background: #222324;
-	align-self: center;
 	padding: 5vw;
 	margin-top: 10vw;
 	margin-left: auto;
